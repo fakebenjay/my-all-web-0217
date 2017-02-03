@@ -10,7 +10,7 @@ You will be building out Ruby's `#all?` method. You'll be adding a method to the
 
 Since Ruby's `all?` method is part of the Enumerable module, it can be called on hashes, arrays, ranges, etc. 
 
-It takes a block and returns either true or false. It returns true if every element when yeilded to the block evaluates to true. It returns false if not every element, when yeilded to the block, returns true.
+It takes a block and returns either true or false. It returns true if every element when yielded to the block evaluates to true. It returns false if not every element, when yielded to the block, returns true.
 
 This is how your `#my_all?` method should behave (it is also how Ruby's `#all?` behaves) when passed a block:
 
